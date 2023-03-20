@@ -3,20 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Our method learns single-image 3D reconstruction models of articulated animal categories, from just online photo collections, without any 3D geometric supervision or template shapes.">
-  <meta name="keywords" content="MagicPony, Unsup3D, Unsupervised, 3D reconstruction">
+        content="Multispectral Video Semantic Segmentation">
+  <meta name="keywords" content="Multispectral, Video Domain, Semantic Segmentation">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MagicPony: Learning Articulated 3D Animals in the Wild</title>
+  <title>Multispectral Video Semantic Segmentation</title>
 
-  <meta property="og:image" content="https://3dmagicpony.github.io/resources/og_image.jpg"/>
-	<meta property="og:title" content="MagicPony: Learning Articulated 3D Animals in the Wild." />
-	<meta property="og:description" content="Our method learns single-image 3D reconstruction models of articulated animal categories, from just online photo collections, without any 3D geometric supervision or template shapes." />
-  <!-- Twitter automatically scrapes this. Go to https://cards-dev.twitter.com/validator?
-      if you update and want to force Twitter to re-scrape. -->
-  <meta property="twitter:card"          content="summary" />
-  <meta property="twitter:title"         content="MagicPony: Learning Articulated 3D Animals in the Wild." />
-  <meta property="twitter:description"   content="Our method learns single-image 3D reconstruction models of articulated animal categories, from just online photo collections, without any 3D geometric supervision or template shapes." />
-  <meta property="twitter:image"         content="https://3dmagicpony.github.io/resources/og_image.jpg" />
+  <meta property="og:image" content="https://jiwei0921.github.io/MVSS/resources/preview.jpg"/>
+	<meta property="og:title" content="Multispectral Video Semantic Segmentation: A Benchmark Dataset and Baseline." />
+	<meta property="og:description" content="Multispectral Video Semantic Segmentation" />
+
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-VFNFH9CKNX"></script>
@@ -56,40 +51,42 @@
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
-        <video id="banner" autoplay muted loop playsinline height="100%">
-          <source src="resources/carousel.mp4"
-                  type="video/mp4">
-        </video>
+          <img src='resources/logo.png' height="100%">
       </div>
       <br>
 
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-3 publication-title" style="font-size: 2.2rem;">&#127904; MagicPony: Learning Articulated 3D Animals in the Wild</h1>
+          <h1 class="title is-3 publication-title" style="font-size: 2.2rem;"> Multispectral Video Semantic Segmentation: A Benchmark Dataset and Baseline</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://elliottwu.com/">Shangzhe Wu</a><sup>*</sup>,
+              <a href="https://jiwei0921.github.io/">Wei Ji</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://ruiningli.com/">Ruining Li</a><sup>*</sup>,
+              <a href="https://www.researchgate.net/profile/Jingjin-Li-109/">Jingjing Li</a><sup>1*</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.robots.ox.ac.uk/~tomj/">Tomas Jakab</a><sup>*</sup>,
+              <a href="https://scholar.google.com/citations?user=QGrtFboAAAAJ&hl=zh-CN/">Cheng Bian</a><sup>2</sup>,
+            </span>
+            <br>
+            <span class="author-block">
+              <a href="https://www.zongweiz.com/">Zongwei Zhou</a><sup>3</sup>,
             </span>
             <span class="author-block">
-              <a href="https://chrirupp.github.io/">Christian Rupprecht</a>,
+              <a href="https://github.com/smilejames">Jiaying Zhao</a><sup>2</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.robots.ox.ac.uk/~vedaldi/">Andrea Vedaldi</a>
+              <a href="https://www.cs.jhu.edu/~ayuille/">Alan Yuille</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=9IRFiEQAAAAJ&hl=en">Li Cheng</a><sup>1</sup>
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block">Visual Geometry Group, University of Oxford</span>
-          </div>
-
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">(* equal contribution)</span>
+            <span class="author-block"><sup>1</sup>University of Alberta</span>,
+            <span class="author-block"><sup>2</sup>ByteDance</span>,
+            <span class="author-block"><sup>2</sup>Johns Hopkins University</span>
           </div>
 
           <div class="is-size-5 publication-authors">
@@ -100,7 +97,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2211.12497"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -108,13 +105,13 @@
                   <span>Paper</span>
                 </a>
               </span>
-              <!-- <span class="link-block">
+              <span class="link-block">
                 <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="fab fa-youtube"></i>
+                      <i class="fas fa-file-pdf"></i>
                   </span>
-                  <span>Video</span>
+                  <span>Supp</span>
                 </a>
               </span>
               <span class="link-block">
@@ -132,9 +129,9 @@
                   <span class="icon">
                       <i class="far fa-images"></i>
                   </span>
-                  <span>Data</span>
+                  <span>Dataset</span>
                 </a>
-              </span> -->
+              </span>
             </div>
 
           </div>
@@ -144,15 +141,15 @@
   </div>
 </section>
 
-<section class="hero teaser">
+<section class="hero intro">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="resources/teaser.mp4"
+      <video id="intro" autoplay muted loop playsinline height="100%">
+        <source src="resources/mvss.mp4"
                 type="video/mp4">
       </video>
       <h2 class="subtitle">
-        Our method learns single-image 3D reconstruction models of articulated animal categories, from just online photo collections, without any 3D geometric supervision or template shapes.
+        Real-world illustrations of Multispectral Video Semantic Segmentation in daytime and nighttime.
       </h2>
     </div>
   </div>
@@ -168,25 +165,15 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We consider the problem of learning a function that can estimate the 3D shape, articulation, viewpoint, texture, and lighting of an articulated animal like a horse, given a single test image. We present a new method, dubbed <b>MagicPony</b>, that learns this function purely from in-the-wild single-view images of the object category, with minimal assumptions about the topology of deformation. At its core is an implicit-explicit representation of articulated shape and appearance, combining the strengths of neural fields and meshes. In order to help the model understand an object's shape and pose, we distil the knowledge captured by an off-the-shelf self-supervised vision transformer and fuse it into the 3D model. To overcome common local optima in viewpoint estimation, we further introduce a new viewpoint sampling scheme that comes at no added training cost. Compared to prior works, we show significant quantitative and qualitative improvements on this challenging task. The model also demonstrates excellent generalisation in reconstructing abstract drawings and artefacts, despite the fact that it is only trained on real images.
+            Robust and reliable semantic segmentation in complex scenes is crucial for many real-life applications such as autonomous safe driving and nighttime rescue. In most approaches, it is typical to make use of RGB images as input. They however work well only in preferred weather conditions; when facing adverse conditions such as rainy, overexposure, or low-light, they often fail to deliver satisfactory results. This has led to the recent investigation into multispectral semantic segmentation, where RGB and thermal infrared (RGBT) images are both utilized as input. This gives rise to significantly more robust segmentation of image objects in complex scenes and under adverse conditions. Nevertheless, the present focus in single RGBT image input restricts existing methods from well addressing dynamic real-world scenes.
+          </p>
+          <p>
+            Motivated by the above observations, in this paper, we set out to address a relatively new task of semantic segmentation of multispectral video input, which we refer to as Multispectral Video Semantic Segmentation, or MVSS in short. An in-house MVSeg dataset is thus curated, consisting of 738 calibrated RGB and thermal videos, accompanied by 3,545 fine-grained pixel-level semantic annotaions of 26 categories. Our dataset contains a wide range of challenging urban scenes in both daytime and nighttime. Moreover, we propose an effective MVSS baseline, dubbed MVNet, which is to our knowledge the first model to jointly learn semantic representations from multispectral and temporal contexts. Comprehensive experiments are conducted using various semantic segmentation models on the MVSeg dataset. Empirically, the engagement of multispectral video input is shown to lead to significant improvement in semantic segmentation; the effectiveness of our MVNet baseline has also been verified.
           </p>
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
-
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Video</h2>
-        <video id="video" playsinline height="100%" controls>
-          <source src="https://www.robots.ox.ac.uk/~szwu/storage/23_magicpony/video.mp4"
-                  type="video/mp4">
-        </video>
-      </div>
-    </div>
-    <!--/ Paper video. -->
-
   </div>
 </section>
 
@@ -196,59 +183,31 @@
 
     <div class="columns is-centered">
       <div class="column is-full-width has-text-centered">
-        <h2 class="title is-3">Single-Image 3D Reconstruction</h2>
+        <h2 class="title is-3">Video Demo</h2>
 
-        <h2 class="title is-5">Real Horse Images and Realistic Paintings</h2>
+        <h2 class="title is-5">Visual Results</h2>
         <div class="content has-text-justified">
           <p>
-            After training, given a single image of a new instance, the model reconstructs articulated 3D shape and appearance of it, which can be animated and re-rendered from arbitrary viewpoints.
+              In the following video demo, we provide intuitive visual results for different scenarios, day and night, in the MVSeg dataset. We also highlighted the details with red boxes. Obviously, the results from our MVNet model are more complete compared to RGB-based DeeplabV3+. This attributes to the superiority of our method in engaging the advantages of complementary multispectral and temporal contexts.
           </p>
         </div>
         <div class="content has-text-centered">
-          <video id="horse-real" autoplay controls muted preload loop playsinline>
-            <source src="resources/horse_real.mp4"
+          <video id="horse-real" autoplay controls muted preload loop playsinline style="max-width: 92%; display: block; margin: auto;">
+            <source src="resources/results.mp4"
                     type="video/mp4">
           </video>
         </div>
         <br>
 
-        <h2 class="title is-5">Generalisation to Abstract Horse Drawings and Artefacts</h2>
+        <h2 class="title is-5">Method Quickview</h2>
         <div class="content has-text-justified">
           <p>
-            The model also generalises to abstract drawings and artefacts, despite being trained only on real images.
+            The following animation presents an overview of the proposed MVNet. Starting from the input multispectral video, its pipeline consists of four parts: (a) feature extraction to obtain the multispectral video features; (b) an MVFuse module to furnish the query features with the rich semantic cues of memory frames; (c) an MVRegulator loss to regularize the multispectral video embedding space; and (d) a cascaded decoder to generate the final segmentation mask.
           </p>
         </div>
         <div class="content has-text-centered">
-          <video id="horse-real" autoplay controls muted preload loop playsinline>
-            <source src="resources/horse_abstract.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <br>
-
-        <h2 class="title is-5">Other Animal Categories: Giraffes, Zebras and Cows</h2>
-        <div class="content has-text-justified">
-          <p>
-            After finetuning, our model also generalises to various animal categories with highly different underlying shapes.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <video id="horse-real" autoplay controls muted preload loop playsinline>
-            <source src="resources/other_animals.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <br>
-
-        <h2 class="title is-5">Frame-by-Frame Reconstruction on Videos</h2>
-        <div class="content has-text-justified">
-          <p>
-            We run the model on videos frame by frame, and obtain temporally consistent reconstructions.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <video id="horse-real" autoplay controls muted preload loop playsinline style="max-width: 86%; display: block; margin: auto;">
-            <source src="resources/video_recon.mp4"
+          <video id="horse-real" autoplay controls muted preload loop playsinline style="max-width: 95%; display: block; margin: auto;">
+            <source src="resources/method.mp4"
                     type="video/mp4">
           </video>
         </div>
@@ -263,25 +222,56 @@
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@InProceedings{wu2023magicpony,
-  author    = {Shangzhe Wu and Ruining Li and Tomas Jakab and Christian Rupprecht and Andrea Vedaldi},
-  title     = {{MagicPony}: Learning Articulated 3D Animals in the Wild},
+    <h2 class="title">Our BibTeX</h2>
+    <pre><code>@InProceedings{ji2023mvss,
+  title     = {Multispectral Video Semantic Segmentation: A Benchmark Dataset and Baseline},
+  author    = {Wei Ji and Jingjing Li and Cheng Bian and Zongwei Zhou and Jiaying Zhao and Alan Yuille and Li Cheng},
   journal   = {CVPR},
   year      = {2023}
 }</code></pre>
+<p> <font color="red">If you use our annotations in your paper, please also cite its video sources below.</font></p>
   </div>
 </section>
 
-<section class="section" id="Acknowledgements">
+<section class="section" id="Announcement">
   <div class="container is-max-desktop content">
-    <h2 class="title">Acknowledgements</h2>
+    <h2 class="title">Announcement</h2>
     <p>
-      We would like to thank the authors of <a href="https://github.com/NVlabs/nvdiffrec">nvdiffrec</a> for open-sourcing the code for DMTet and rendering. We are also grateful to Tengda Han, Shu Ishida, Dylan Campbell, Eldar Insafutdinov, Luke Melas-Kyriazi, Ragav Sachdeva and Sagar Vaze for insightful discussions, and Guanqi Zhan and Jaesung Huh for proofreading.
-    </p>
-    <p>
-      Shangzhe Wu is supported by Meta Research. Tomas Jakab is supported by ERC-CoG UNION 101001212. Christian Rupprecht is supported by VisualAI EP/T028572/1 and ERC-CoG UNION 101001212. Andrea Vedaldi is supported by ERC-CoG UNION 101001212.
-    </p>
+        Our MVSeg dataset (<strong>M</strong>ultispectral <strong>V</strong>ideo <strong>S</strong>egmentation) is based on diverse RGBT video sources, including <a href="https://github.com/nerfies/nerfies.github.io">OSU</a>, <a href="https://github.com/nerfies/nerfies.github.io">INO</a>, <a href="https://github.com/nerfies/nerfies.github.io">KAIST</a>, and <a href="https://github.com/nerfies/nerfies.github.io">RGBT234</a>. They are annotated and adjusted to better fit the MVSS task.  <strong>If you use our MVSeg dataset and annotations, we would appreciate your citations of our work and the four source datasets mentioned above</strong>. 
+      </p>
+      <p>
+          The annotations in this dataset belong to the authors of this paper and are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 License</a>.
+          These annotations are released for <strong>non-commercial research purpose only</strong>.
+        </p>
+      <pre><code>@article{OSU2007,
+  title={Background-subtraction using contour-based fusion of thermal and visible imagery},
+  author={Davis, James W and Sharma, Vinay},
+  journal={Computer Vision and Image Understanding},
+  volume={106},
+  number={2-3},
+  pages={162--182},
+  year={2007}
+}</code><code>@misc{INOdata,
+  title = {Video Analytics Dataset},
+  author = {INO},
+  howpublished = {\url{https://www.ino.ca/en/technologies/video-analytics-dataset/}},
+  year={2012}
+}</code><code>
+@inproceedings{KAIST,
+  title={Multispectral pedestrian detection: Benchmark dataset and baseline},
+  author={Hwang, Soonmin and Park, Jaesik and Kim, Namil and Choi, Yukyung and So Kweon, In},
+  booktitle={CVPR},
+  pages={1037--1045},
+  year={2015}
+}</code><code>
+@article{RGBT234,
+  title={RGB-T object tracking: Benchmark and baseline},
+  author={Li, Chenglong and Liang, Xinyan and Lu, Yijuan and Zhao, Nan and Tang, Jin},
+  journal={Pattern Recognition},
+  volume={96},
+  pages={106977},
+  year={2019}
+}</code></pre>
   </div>
 </section>
 
