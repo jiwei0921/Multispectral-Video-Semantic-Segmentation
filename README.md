@@ -1,8 +1,8 @@
 # Multispectral Video Semantic Segmentation
 
-This is the repository that contains source code for the [MVSS website](https://jiwei0921.github.io/Multispectral-Video-Semantic-Segmentation/), adapted from <a rel="license" href="https://nerfies.github.io">Nerfies</a>.
+This is the repository for the [MVSS website](https://jiwei0921.github.io/Multispectral-Video-Semantic-Segmentation/), adapted from <a rel="license" href="https://nerfies.github.io">Nerfies</a>.
 
-Dataset website template. https://uzh-rpg.github.io/aegnn/ 
+Other dataset website template like https://uzh-rpg.github.io/aegnn/ 
 
 + step1: git add .
 + setp2: git commit -m "update"
