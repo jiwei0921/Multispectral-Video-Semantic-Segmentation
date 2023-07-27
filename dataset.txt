@@ -1,0 +1,84 @@
+The MVSeg dataset is available now!
+
+-------
+
+# Dataset Brief
+
+MVSeg dataset comprises 738 calibrated RGB and thermal (RGB-T) videos, accompanied by 3,545 fine-grained pixel-level semantic annotations of 26 categories. It covers a wide range of challenging urban scenes in both daytime and nighttime.
+
+-------
+
+# Dataset Download
+
+Please download the MVSeg dataset from the following Google Drive link: " https://drive.google.com/file/d/1duCXz5aUuvZG7HBnydHLL61k4UBT2Wu_/view?usp=sharing ". Kindly note that certain essential information, such as your name, affiliation, and purpose, is required. Once your request is approved, you will be granted access to the dataset.
+
+-------
+
+# Dataset Structure
+
+The MVSeg is structured as follows:
+
+MVSeg_Dataset/
+├─ train.txt
+├─ val.txt
+├─ test.txt
+├─ test_day.txt
+├─ test_night.txt
+│ ···
+├─ data/
+│  ├─ video1/
+│  │  ├─ visible/
+│  │  │  ├─ 00001v.jpg
+│  │  │  ├─ 00002v.jpg
+│  │  ├─ infrared/
+│  │  │  ├─ 00001i.jpg
+│  │  │  ├─ 00002i.jpg
+│  │  ├─ label/
+│  │  │  ├─ 00001l.png
+│  │
+│  ├─ video2/
+│  │  ├─ visible/
+···
+
+-------
+
+# Dataset ColorMap
+
+Here is the reference for MVSeg dataset color visualization.
+
+[
+        (0, 0, 0),          # 0:    background(unlabeled)
+        (0, 0, 142),        # 1:    Car
+        (0, 60, 100),       # 2:    Bus
+        (0, 0, 230),        # 3:    Motorcycle
+        (119, 11, 32),      # 4:    Bicycle
+        (255, 0, 0),        # 5:    Pedestrian
+        (0, 139, 139),      # 6:    Motorcyclist
+        (255, 165, 150),    # 7:    Bicyclist
+        (192, 64, 0),       # 8:    Cart
+        (211, 211, 211),    # 9:    Bench
+        (100, 33, 128),     # 10:   Umbrella
+        (117, 79, 86),      # 11:   Box
+        (153, 153, 153),    # 12:   Pole
+        (190, 122, 222),    # 13:   Street_lamp
+        (250, 170, 30),     # 14:   Traffic_light
+        (220, 220, 0),      # 15:   Traffic_sign
+        (222, 142, 35),     # 16:   Car_stop
+        (205, 155, 155),    # 17:   Color_cone
+        (70, 130, 180),     # 18:   Sky
+        (128, 64, 128),     # 19:   Road
+        (244, 35, 232),     # 20:   Sidewalk
+        (0, 0, 70),         # 21:   Curb
+        (107, 142, 35),     # 22:   Vegetation
+        (152, 251, 152),    # 23:   Terrain
+        (70, 70, 70),       # 24:   Building
+        (110, 80, 100)      # 25:   Ground
+]
+
+-------
+
+# Note
+
+Our MVSeg dataset is based on diverse RGB-T video sources, including OSU, INO, KAIST, and RGBT234. They are annotated and adjusted to better fit the MVSS task. All data and annotations provided are strictly intended for non-commercial research purpose only. If you are interested in our MVSeg dataset, we sincerely appreciate your citation of our work and strongly encourage you to cite the four source datasets mentioned above.
+
+If you have other questions, please email us at wji3@ualberta.ca.
