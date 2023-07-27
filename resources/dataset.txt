@@ -19,26 +19,26 @@ Please download the MVSeg dataset from the following Google Drive link: " https:
 The MVSeg is structured as follows:
 
 MVSeg_Dataset/
-├─ train.txt
-├─ val.txt
-├─ test.txt
-├─ test_day.txt
-├─ test_night.txt
-│ ···
-├─ data/
-│  ├─ video1/
-│  │  ├─ visible/
-│  │  │  ├─ 00001v.jpg
-│  │  │  ├─ 00002v.jpg
-│  │  ├─ infrared/
-│  │  │  ├─ 00001i.jpg
-│  │  │  ├─ 00002i.jpg
-│  │  ├─ label/
-│  │  │  ├─ 00001l.png
-│  │
-│  ├─ video2/
-│  │  ├─ visible/
-···
+|- train.txt
+|- val.txt
+|- test.txt
+|- test_day.txt
+|- test_night.txt
+| ...
+|- data/
+|  |- video1/
+|  |  |- visible/
+|  |  |  |- 00001v.jpg
+|  |  |  |- 00002v.jpg
+|  |  |- infrared/
+|  |  |  |- 00001i.jpg
+|  |  |  |- 00002i.jpg
+|  |  |- label/
+|  |  |  |- 00001l.png
+|  |
+|  |- video2/
+|  |  |- visible/
+...
 
 -------
 
