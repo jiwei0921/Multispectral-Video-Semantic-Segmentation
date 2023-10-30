@@ -79,6 +79,6 @@ Here is the reference for MVSeg dataset color visualization.
 
 # Note
 
-Our MVSeg dataset is based on diverse RGB-T video sources, including OSU, INO, KAIST, and RGBT234. They are annotated and adjusted to better fit the MVSS task. All data and annotations provided are strictly intended for non-commercial research purpose only. If you are interested in our MVSeg dataset, we sincerely appreciate your citation of our work and strongly encourage you to cite the four source datasets mentioned above.
+Our MVSeg dataset is under the MIT License.
 
 If you have other questions, please email us at wji3@ualberta.ca.
